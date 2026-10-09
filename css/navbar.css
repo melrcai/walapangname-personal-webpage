@@ -1,0 +1,61 @@
+.nav-bar {
+    height: 8vh;
+    width: 50vw;
+    
+    margin: 2vh auto 0;
+    position: sticky;
+    top: 2vh;
+    z-index: 100;
+    
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 0px 10px black;
+
+
+}
+
+.nav-bar:hover {
+    background-color: whitesmoke;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    padding:  2vh;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.nav-btns {
+    padding-right: 2vh;
+    display: flex;
+    gap: 2vh;
+}
+
+.nav-btn {
+    border: none;
+    background-color: transparent;
+    font-family: "Michroma", sans-serif;
+    font-weight: 700;
+    font-size: large;
+    transform-origin: center;
+    transition: transform 0.25s ease-in-out;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-btn a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav-btn:hover {
+    transform: scale(1.1);
+    color: rgba(255, 255, 255, 0.63);
+}

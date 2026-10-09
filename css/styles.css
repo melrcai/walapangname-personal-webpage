@@ -1,0 +1,27 @@
+@import url("navbar.css");
+@import url("hero.css");
+@import url("members.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --BG: #101010;
+  --White: #e1e1e1;
+  --Black: #000000;
+}
+
+body {
+    background-color: var(--BG)
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
