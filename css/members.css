@@ -66,6 +66,14 @@
     font-family: "Michroma", sans-serif;
 }
 
+.link-btn {
+    border-radius: 20px;
+    padding: 4px;
+    border: 1px solid;
+    background-color: rgba(255, 255, 255, 0.15);
+
+}
+
 /* Hover */
 
 .member-card:hover {
