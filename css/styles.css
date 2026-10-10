@@ -1,0 +1,82 @@
+@import url("navbar.css");
+@import url("hero.css");
+@import url("members.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --BG: #101010;
+  --White: #e1e1e1;
+  --Black: #000000;
+}
+
+body {
+    background-color: var(--BG)
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Footer */
+
+.footer {
+  height: 10vh;
+  width: 60vw ;
+  background-color: white;
+  margin: 2vh auto 0;
+
+  top: 2vh;
+  z-index: 100;
+    
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 0px 10px black;
+  overflow: hidden;
+
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+ 
+
+  
+}
+
+.title h4 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 2vh;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-btn {
+  cursor: pointer;
+  padding: 0.8vh;
+  border-radius: 15px;
+  border: none;
+  background-color: transparent;
+
+}
+
+.icons a {
+  color: inherit;
+  cursor: pointer;
+}
+
+.icon-btn:active {
+  color: white;
+}
